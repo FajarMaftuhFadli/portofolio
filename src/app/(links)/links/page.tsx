@@ -11,12 +11,16 @@ export default function Link() {
       url: 'https://github.com/FajarMaftuhFadli',
     },
     {
-      name: 'Steam',
-      url: 'https://steamcommunity.com/id/froggologies',
-    },
-    {
       name: 'Accredible',
       url: 'https://www.credential.net/profile/fajarmaftuhfadli/wallet#gs.qlkirc',
+    },
+    {
+      name: 'Dicoding',
+      url: 'https://www.dicoding.com/users/fajarmaftuhfadli/academies',
+    },
+    {
+      name: 'Steam',
+      url: 'https://steamcommunity.com/id/froggologies',
     },
     {
       name: 'Mongkeytype',
