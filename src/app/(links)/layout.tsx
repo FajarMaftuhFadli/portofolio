@@ -1,4 +1,17 @@
 import '../globals.css';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: {
+    default: "Fajar' links",
+    template: '%s | Fajar',
+  },
+  description: "Hi, I'am Fajar!",
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+  },
+};
 
 export default function RootLayout({
   children,
