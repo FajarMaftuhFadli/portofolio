@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: {
-    default: "Fajar' links",
+    default: "Fajar's links",
     template: '%s | Fajar',
   },
   description: "Hi, I'am Fajar!",
