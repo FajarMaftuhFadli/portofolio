@@ -2,15 +2,15 @@
 import { usePathname } from 'next/navigation';
 // import Image from 'next/image';
 import Logo from './Logo';
+import Link from 'next/link';
 
 export default function Header() {
   const pathname = usePathname();
   return (
     <header className="p-4 text-gray-800 bg-gray-100">
       <div className="container flex justify-between h-16 mx-auto">
-        <a
-          rel="noopener noreferrer"
-          href="#"
+        <Link
+          href="/"
           aria-label="Back to homepage"
           className="flex items-center p-2"
         >
@@ -20,7 +20,7 @@ export default function Header() {
             primaryColor="fill-blue-400"
             secondaryColor="fill-blue-50"
           />
-        </a>
+        </Link>
         <ul className="items-stretch hidden space-x-3 md:flex">
           <li className="flex">
             <a
