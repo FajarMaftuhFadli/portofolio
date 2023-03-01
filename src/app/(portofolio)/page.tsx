@@ -4,7 +4,7 @@ import Timeline from '@/components/Timeline';
 
 export default function Home() {
   return (
-    <main className="font-mono">
+    <main>
       <Hero />
       <Timeline />
       <Blog />

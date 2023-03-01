@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section className="text-gray-800 bg-gray-100">
       <div className="container flex flex-col items-center px-4 py-16 mx-auto text-center md:py-32 md:px-10 lg:px-32 xl:max-w-3xl">
-        <h1 className="text-4xl font-bold leading-none sm:text-5xl">
+        <h1 className="font-mono text-4xl font-bold leading-none sm:text-5xl">
           Hi, I&#39;m <span className="dark:text-blue-400">Fajar</span>!
         </h1>
         <p className="px-8 mt-8 mb-12 text-lg">
