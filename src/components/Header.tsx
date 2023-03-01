@@ -77,14 +77,14 @@ export default function Header() {
           <li className="flex">
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="links"
               className={`flex items-center px-4 -mb-1 border-b-2 border-transparent ${
                 pathname == '/contact'
                   ? 'dark:text-blue-400 dark:border-blue-400'
                   : ''
               }`}
             >
-              Contact
+              Links
             </a>
           </li>
         </ul>
